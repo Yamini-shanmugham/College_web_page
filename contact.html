@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body style="background-color: beige">
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <img class="navbar-left" src="\img\logo1.png" />
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="facility.html">Facilities</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="contact">
+      <h1 class="section-header" style="color: black">Contact Us</h1>
+
+      <div class="contact-wrapper">
+        <!-- Left contact page -->
+
+        <form id="contact-form" class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="NAME"
+                name="name"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="EMAIL"
+                name="email"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <textarea
+            class="form-control"
+            rows="10"
+            placeholder="MESSAGE"
+            name="message"
+            required
+          ></textarea>
+
+          <button
+            class="btn btn-primary send-button"
+            id="submit"
+            type="submit"
+            value="SEND"
+          >
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i
+              ><span class="send-text">SEND</span>
+            </div>
+          </button>
+        </form>
+
+        <!-- Left contact page -->
+
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <i class="fa fa-map-marker fa-2x"
+                ><span class="contact-text place"
+                  ><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3237159518326!2d78.69322767341212!3d10.786499789362885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf525d4d25391%3A0xcfbc5b3e170dd940!2sJamal%20Mohamed%20College!5e0!3m2!1sen!2sin!4v1688551948835!5m2!1sen!2sin"
+                    width="100"
+                    height="100"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe></span
+              ></i>
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-phone fa-2x"
+                ><span class="contact-text phone"
+                  ><a href="tel:0431 - 2331135" title="Give me a call"
+                    >0431 - 2331135</a
+                  ></span
+                ></i
+              >
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-envelope fa-2x"
+                ><span class="contact-text gmail"
+                  ><a href="mailto:#" title="Send me an email"
+                    >princi@jmc.edu</a
+                  ></span
+                ></i
+              >
+            </li>
+          </ul>
+
+          <hr />
+          <ul class="social-media-list">
+            <a
+              href="https://www.facebook.com/jamalcollegetry/"
+              target="_blank"
+              class="contact-icon"
+            >
+              <li>
+                <i class="fa-brands fa-facebook"></i></li
+            ></a>
+            <a
+              href="https://twitter.com/JamalCollege?s=20"
+              target="_blank"
+              class="contact-icon"
+            >
+              <li>
+                <i class="fa-brands fa-twitter"></i></li
+            ></a>
+            <a
+              href="https://www.instagram.com/jamalcollege_try/?hl=en"
+              target="_blank"
+              class="contact-icon"
+            >
+              <li>
+                <i class="fa-brands fa-instagram"></i></li
+            ></a>
+            <a
+              href="https://www.youtube.com/@jamalmohamedcollege628/about"
+              target="_blank"
+              ><li>
+                <i class="fa-brands fa-youtube"></i></li
+            ></a>
+          </ul>
+          <hr />
+        </div>
+      </div>
+    </section>
+    <script src="/script.js"></script>
+    <!---------- Footer HTML Starts --------->
+    <div class="footer">
+      <div class="container">
+        <div class="footer-sect">
+          <h2>Best Institute For Education</h2>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock.
+          </p>
+          <ul class="social-media-list">
+            <a
+              href="https://www.facebook.com/jamalcollegetry/"
+              target="_blank"
+              class="contact-icon"
+            >
+              <li>
+                <i class="fa-brands fa-facebook"></i></li
+            ></a>
+            <a
+              href="https://twitter.com/JamalCollege?s=20"
+              target="_blank"
+              class="contact-icon"
+            >
+              <li>
+                <i class="fa-brands fa-twitter"></i></li
+            ></a>
+            <a
+              href="https://www.instagram.com/jamalcollege_try/?hl=en"
+              target="_blank"
+              class="contact-icon"
+            >
+              <li>
+                <i class="fa-brands fa-instagram"></i></li
+            ></a>
+            <a
+              href="https://www.youtube.com/@jamalmohamedcollege628/about"
+              target="_blank"
+              ><li>
+                <i class="fa-brands fa-youtube"></i></li
+            ></a>
+          </ul>
+          <hr />
+        </div>
+        <div class="footer-sect">
+          <h2>Quick Links</h2>
+          <ul class="footer-menu">
+            <li><a href="index.html"> > Home</a></li>
+            <li><a href="about.html"> > About us</a></li>
+            <li><a href="facility.html"> > Facilities</a></li>
+            <li><a href="pricelist/price.html"> > Prospectus</a></li>
+            <li><a href="gallery.html"> > Gallery</a></li>
+            <li><a href="/formvalid/form.html"> > LogIn</a></li>
+            <li><a href="course.html"> > Courses</a></li>
+            <li><a href="contact.html"> > Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-sect">
+          <h2>Contact Info</h2>
+          <ul class="footer-contact">
+            <li><b>Email :</b> princi@jmc.edu</li>
+            <li><b>Call :</b> 0431 - 2331135</li>
+            <li>
+              <b>Address :</b> Jamal Mohamed College,<br />
+              P.Box.No : 808, #7, Race Course Road, Khajanagar,<br />
+              Tiruchirappalli-620 020.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cpy">
+        <div class="copyright">
+          This website is subjected to all kind of copyrights &copy;
+          yaminishanmugham
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
